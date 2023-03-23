@@ -1,0 +1,51 @@
+
+/********** MAIN *********/
+.container{
+    width: 100%;
+    height: calc(100vh - 110px);
+    background-color: green;
+}
+
+
+.logo-list{
+    width: 19rem;
+    height: 100%;
+    background-color: #000000;
+}
+
+.container-catalog{
+    width: 100%;
+    height: 100%;
+    background-color: #141922;
+}
+
+
+.upgrade{
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    background-color: #00000077;
+}
+
+.catalog{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    background-color: orange;
+
+
+}
+
+
+
+
+
+
+
+/********** FOOTER  *********/
+
+.replay-bar{
+    width: 100%;
+    height: 110px;
+    background-color: #282828;
+}

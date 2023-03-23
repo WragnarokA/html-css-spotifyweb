@@ -1,0 +1,162 @@
+
+/*****************************/
+/******** LAYOUTING **********/
+/*****************************/
+
+
+/****** XS - MOBILE FIRST - SMALL SMARTPHONE ******/
+.cont {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.col-100-xs {
+    width: 100%;
+}
+
+.col-1-2-xs {
+    width: calc(100% / 2);
+}
+
+.col-1-4-xs {
+    width: calc(100% / 4);
+}
+
+.col-1-6-xs {
+    width: calc(100% / 6);
+}
+
+.col-1-3-xs {
+    width: calc(100% / 3);
+}
+
+.col-2-3-xs {
+    width: calc(100% / 3 * 2);
+}
+
+
+/****** SM - RESPONSIVE: SMARTPHONE ******/
+@media screen and (min-width: 480px) {
+    .cont {
+        max-width: 800px;
+    }
+
+    .col-100-sm {
+        width: 100%;
+    }
+
+    .col-1-2-sm {
+        width: calc(100% / 2);
+    }
+
+    .col-1-4-sm {
+        width: calc(100% / 4);
+    }
+    
+    .col-1-6-sm {
+        width: calc(100% / 6);
+    }
+
+    .col-1-3-sm {
+        width: calc(100% / 3);
+    }
+
+    .col-2-3-sm {
+        width: calc(100% / 3 * 2);
+    }
+}
+
+
+/****** MD - RESPONSIVE: TABLET  ******/
+@media screen and (min-width: 768px) {
+    .cont {
+        max-width: 1000px;
+    }
+
+    .col-100-md {
+        width: 100%;
+    }
+
+    .col-1-2-md {
+        width: calc(100% / 2);
+    }
+
+    .col-1-4-md {
+        width: calc(100% / 4);
+    }
+
+    .col-1-6-md {
+        width: calc(100% / 6);
+    }
+
+    .col-1-3-md {
+        width: calc(100% / 3);
+    }
+
+    .col-2-3-md {
+        width: calc(100% / 3 * 2);
+    }
+
+}
+
+/****** LG - RESPONSIVE: DESKTOP ******/
+@media screen and (min-width: 992px) {
+    .cont {
+        max-width: 1300px;
+    }
+    
+    .col-100-lg {
+        width: 100%;
+    }
+
+    .col-1-2-lg {
+        width: calc(100% / 2);
+    }
+
+    .col-1-4-lg {
+        width: calc(100% / 4);
+    }
+
+    .col-1-6-lg {
+        width: calc(100% / 6);
+    }
+
+    .col-1-3-lg {
+        width: calc(100% / 3);
+    }
+
+    .col-2-3-lg {
+        width: calc(100% / 3 * 2);
+    }
+}
+
+/****** XL - RESPONSIVE: LARGE DESKTOP ******/
+@media screen and (min-width: 1201px) {
+    .conta {
+        max-width: 1300px;
+    }
+    
+    .col-100-xl {
+        width: 100%;
+    }
+
+    .col-1-2-xl {
+        width: calc(100% / 2);
+    }
+
+    .col-1-4-xl {
+        width: calc(100% / 4);
+    }
+
+    .col-1-6-xl {
+        width: calc(100% / 6);
+    }
+
+    .col-1-3-xl {
+        width: calc(100% / 3);
+    }
+
+    .col-2-3-xl {
+        width: calc(100% / 3 * 2);
+    }
+}

@@ -17,32 +17,34 @@
 
         <main>
             <div class="container flex">
-
                 <!-- /* BAR-LEFT LOGO LIS  */ -->
                 <div class="logo-list">
-                    <img class="img-logo" src="./img/logo.svg" alt="">
-                    <ul class="home lst">
-                        <li class="fg-lightgrey flex align-center pt-2"><i class="fa-solid fa-house fs-2"></i> <strong class="fg-white">Home</strong> </li>
-                        <li class="fg-grey flex align-center pt-1"><i class="fa-solid fa-magnifying-glass fs-2"></i> Cerca</li>
-                        <li class="fg-grey flex align-center pt-1"><i class="fa-solid fa-lines-leaning fs-2"></i> La tua libreria</li>
-                    </ul>
-                    <ul class="playlist lst">
-                        <li class="fg-white pt-2"><strong>PLAYLISST</strong></li>
-                        <li class="fg-grey pt-1"><i class="fa-solid fa-square-plus fg-lightgrey"></i> Crea Playlist</li>
-                        <li class="fg-grey pt-1">Nome Playlist</li>
-                        <li class="fg-grey pt-1">Nome Playlist</li>
-                        <li class="fg-grey pt-1">Nome Playlist</li>
-                        <li class="fg-grey pt-1">Nome Playlist</li>
-                        <li class="fg-grey pt-1">Nome Playlist</li>
-                        <li class="fg-grey pt-1">Nome Playlist</li>
-                        <li class="fg-grey pt-1">Nome Playlist</li>
-                    </ul>
-                    <ul class="list-bottom lst pt-11">
+                    <div class="home">
+                        <ul class=" lst">
+                            <img class="img-logo" src="./img/logo.svg" alt="">
+                            <li class="fg-lightgrey flex align-center pt-2"><i class="fa-solid fa-house fs-2"></i> <strong class="fg-white">Home</strong> </li>
+                            <li class="fg-grey flex align-center pt-1"><i class="fa-solid fa-magnifying-glass fs-2"></i> Cerca</li>
+                            <li class="fg-grey flex align-center pt-1"><i class="fa-solid fa-lines-leaning fs-2"></i> La tua libreria</li>
+                        </ul>
+                        <ul class="playlist lst">
+                            <li class="fg-white pt-2"><strong>PLAYLISST</strong></li>
+                            <li class="fg-grey pt-1"><i class="fa-solid fa-square-plus fg-lightgrey"></i> Crea Playlist</li>
+                            <li class="fg-grey pt-1">Nome Playlist</li>
+                            <li class="fg-grey pt-1">Nome Playlist</li>
+                            <li class="fg-grey pt-1">Nome Playlist</li>
+                            <li class="fg-grey pt-1">Nome Playlist</li>
+                            <li class="fg-grey pt-1">Nome Playlist</li>
+                            <li class="fg-grey pt-1">Nome Playlist</li>
+                            <li class="fg-grey pt-1">Nome Playlist</li>
+                        </ul>
+                    </div>
+                    <ul class="list-bottom lst">
                         <li class="fg-grey"><i class="fa-solid fa-circle-arrow-down"></i></i> Installa app</li>
                         <li class="fg-grey">______________________</li>
                         <li class="fg-white pt-1"><i class="fa-solid fa-circle-user"></i> John Doe</li>
                     </ul>
                 </div>
+
 
                 <!-- /******* CATALOG  *******/ -->
                 <div class="container-catalog ">
@@ -50,105 +52,115 @@
                     <div class="upgrade">
                         <button class="botton-upgrade">EFFETTUA L'UPGRADE </button>
                     </div>
-                    <!-- /* NAV BAR  */ -->
-                    <div class="nav-bar">
-                        <div class="cont-nav-bar pr-1">
-                            <ul class="list-nav-bar lst ">
-                                <li class="fg-grey"> <strong>IN EVIDENZA</strong> </li>
-                                <li class="fg-grey"> <strong>PODCAST</strong> </li>
-                                <li class="fg-grey"> <strong>CLASSIFICHE</strong> </li>
-                                <li class="fg-grey"> <strong>GENERI E MOOD</strong> </li>
-                                <li class="fg-grey"> <strong>NUOVE USCITE</strong> </li>
-                                <li class="fg-grey"> <strong>SCOPRI</strong> </li>
-                            </ul>
-                            <div class="line"></div>
-                        </div>
-                    </div>
+                    <div class="main-content">
+                        <!-- /* NAV BAR  */ -->
+                        <nav class="nav-bar  ">
+                            <a class="col-1-2-xs col-1-3-sm col-1-4-md col-1-6-lg fg-grey"> <strong>IN EVIDENZA</strong> </a>
+                            <a class="col-1-2-xs col-1-3-sm col-1-4-md col-1-6-lg fg-grey"> <strong>PODCAST</strong> </a>
+                            <a class="col-1-2-xs col-1-3-sm col-1-4-md col-1-6-lg fg-grey"> <strong>CLASSIFICHE</strong> </a>
+                            <a class="col-1-2-xs col-1-3-sm col-1-4-md col-1-6-lg fg-grey"> <strong>GENERI E MOOD</strong> </a>
+                            <a class="col-1-2-xs col-1-3-sm col-1-4-md col-1-6-lg fg-grey"> <strong>NUOVE USCITE</strong> </a>
+                            <a class="col-1-2-xs col-1-3-sm col-1-4-md col-1-6-lg fg-grey"> <strong>SCOPRI</strong> </a>
+                        </nav>
+                        <!-- <div class="line"></div> -->
+                        <!-- CARD RECENTLY -->
+                        <h2 class="pl-1 fg-white pt-1">Recently played</h2>
+                        <div class=" container-card-1">
 
-                    <!-- CARD RECENTLY -->
-                    <h2 class="pl-1 fg-white pt-1">Recently played</h2>
-                    <div class="container-card-1">
-                        <div class="card ">
-                            <img class="w100 " src="./img/metal_lifting.jpg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>Heavy Metal</strong></li>
-                            <li class="fg-grey pt-1">Subtitle</li>
-                            </ul>
-                        </div>
-                        <div class="card ">
-                            <img class="w100 " src="./img/stranger.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>Stranger Things, Vol. <br> 1 (a Netflix Original <br> Series Soundtrack)</strong></li>
-                            <li class="fg-grey pt-1">Kyle Dixon & Michael Stein</li>
-                            </ul>
-                        </div>
-                        <div class="card ">
-                            <img class="w100 " src="./img/aquietplace.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>A quiet place</strong></li>
-                            <li class="fg-grey pt-1">Subtitle</li>
-                            </ul>
-                        </div>
-                        <div class="card ">
-                            <img class="w100 " src="./img/split.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>Split</strong></li>
-                            <li class="fg-grey pt-1">Subtitle</li>
-                            </ul>
-                        </div>
-                        <div class="card ">
-                            <img class="w100 " src="./img/cure.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>A cure for wellness</strong></li>
-                            <li class="fg-grey pt-1">Subtitle</li>
-                            </ul>
-                        </div>
-                        <div class="card ">
-                            <img class="w100 " src="./img/sinister.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>Sinister</strong></li>
-                            <li class="fg-grey pt-1">Subtitle</li>
-                            </ul>
-                        </div>
-                    
+                            <div class="col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class=" " src="./img/metal_lifting.jpg" alt="">
+                                <ul class="ul-card lst flex flex-column align-center">
+                                    <li class="fg-grey pt-1">Subtitle</li>
+                                    <li class="fg-white pt-1 "><strong>Heavy Metal</strong></li>
+                                </ul>
+                            </div>
+                            
+                            <div class="col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class="" src="./img/stranger.jpeg" alt="">
+                                <ul class="ul-card lst flex flex-col2mn align-center">
+                                    <li class="fg-white pt-1 "><strong>Stranger Things, Vol. <br> 1 (a Netflix Original <br> Series Soundtrack)</strong></li>
+                                    <li class="fg-grey pt-05">Kyle Dixon & Michael Stein</li>
+                                </ul>
+                            </div>
+                            
+                            <div class=" col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class=" " src="./img/aquietplace.jpeg" alt="">
+                                <ul class="ul-card lst flex flex-column align-center">
+                                    <li class="fg-white pt-1 "><strong>A quiet place</strong></li>
+                                    <li class="fg-grey pt-1">Subtitle</li>
+                                </ul>
+                            </div>
 
+                            <div class=" col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class=" " src="./img/split.jpeg" alt="">
+                                <ul class="ul-card lst flex flex-column align-center">
+                                    <li class="fg-white pt-1 "><strong>Split</strong></li>
+                                    <li class="fg-grey pt-1">Subtitle</li>
+                                </ul>
+                            </div>
+                            
+                            <div class=" col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class=" " src="./img/cure.jpeg" alt="">
+                                <ul class="ul-card lst flex flex-column align-center">
+                                    <li class="fg-white pt-1 "><strong>A cure for wellness</strong></li>
+                                    <li class="fg-grey pt-1">Subtitle</li>
+                                </ul>
+                            </div>
+                            
+                            <div class=" col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class=" " src="./img/sinister.jpeg" alt="">
+                                <ul class="ul-card lst flex flex-column align-center">
+                                    <li class="fg-white pt-1 "><strong>Sinister</strong></li>
+                                    <li class="fg-grey pt-1">Subtitle</li>
+                                </ul>
+                            </div>
+                        </div>
+                            
+                        <!-- CARD CREATO PER JOHN  -->
+                        
+                            
+                        <h2 class="pl-1 fg-white pt-2">Creato per John Doe</h2>
+                        <p class="fg-grey pl-1 pt-1">Più ascolti, più accurati saranno i suggerimenti.</p>
+                        <div class="container-card-2 ">
+                            
+                            <div class=" col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class=" " src="./img/radar.jpeg" alt="">
+                                <ul class="ul-card lst flex flex-column align-center">
+                                    <li class="fg-white pt-1 "><strong>Release Radar</strong></li>
+                                </ul>
+                            </div>
+                            
+                            <div class=" col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class=" " src="./img/mixdaily.jpeg" alt="">
+                                <ul class="ul-card lst flex flex-column align-center">
+                                    <li class="fg-white pt-1 "><strong>Daily Mix 1</strong></li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                            
+                            
+                        
+                        
+                        <!-- CARD ARTISTI -->
+                        <h2 class="pl-1 fg-white pt-2">Artisti più popolari</h2>
+                            <p class="fg-grey pl-1 pt-1">Più ascolti, più accurati saranno i suggerimenti.</p>
+                            <div class="container-card-2 ">
+                                <div class="col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                    <img class="w100 clip " src="./img/youg.jpeg" alt="">
+                                    <ul class="ul-card lst flex flex-column align-center">
+                                        <li class="fg-white pt-1 "><strong>Lana del Rey</strong></li>
+                                    </ul>
+                            </div>
+                            <div class="col-1-2-xs col-1-2-sm col-1-4-md col-1-6-lg card ">
+                                <img class="w100 clip " src="./img/einaudi.jpeg" alt="">
+                                <ul class="ul-card lst flex flex-column align-center">
+                                    <li class="fg-white pt-1 "><strong>Ludovico Einaudi</strong></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <!-- CARD CREATO PER JOHN  -->
-                    <h2 class="pl-1 fg-white pt-2">Creato per John Doe</h2>
-                    <p class="fg-grey pl-1 pt-1">Più ascolti, più accurati saranno i suggerimenti.</p>
-                    <div class="container-card-2 ">
-                        <div class="card ">
-                            <img class="w100 " src="./img/radar.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>Release Radar</strong></li>
-                            </ul>
-                        </div>
-                        <div class="card ">
-                            <img class="w100 " src="./img/mixdaily.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>Daily Mix 1</strong></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                     <!-- CARD ARTISTI -->
-                    <h2 class="pl-1 fg-white pt-2">Artisti più popolari</h2>
-                    <p class="fg-grey pl-1 pt-1">Più ascolti, più accurati saranno i suggerimenti.</p>
-                    <div class="container-card-2 ">
-                        <div class="card ">
-                            <img class="w100 clip " src="./img/youg.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>Lana del Rey</strong></li>
-                            </ul>
-                        </div>
-                        <div class="card ">
-                            <img class="w100 clip " src="./img/einaudi.jpeg" alt="">
-                            <ul class="ul-card lst flex flex-column align-center">
-                            <li class="fg-white pt-1 "><strong>Ludovico Einaudi</strong></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
+                        
 
                 </div>
 
@@ -180,11 +192,11 @@
                 <div class="replay-center">
 
                     <ul class="flex lst align-center">
-                        <li class="fg-white pr-2"><i class="fa-solid fa-shuffle"></i></li>
-                        <li class="fg-white pr-2"><i class="fa-solid fa-backward-step"></i></li>
-                        <li class="fg-white pr-2 fs-2"><i class="fa-regular fa-circle-play"></i></li>
-                        <li class="fg-white pr-2"><i class="fa-solid fa-forward-step"></i></li>
-                        <li class="fg-white pr-2"><i class="fa-solid fa-rotate-right"></i></li>
+                        <li class="fg-white pr-1"><i class="fa-solid fa-shuffle"></i></li>
+                        <li class="fg-white pr-1"><i class="fa-solid fa-backward-step"></i></li>
+                        <li class="fg-white pr-1 fs-2"><i class="fa-regular fa-circle-play"></i></li>
+                        <li class="fg-white pr-1"><i class="fa-solid fa-forward-step"></i></li>
+                        <li class="fg-white"><i class="fa-solid fa-rotate-right"></i></li>
                     </ul>
                     <ul class="flex lst align-center">
                         <li class="fg-white pr-2">0:25</li>
@@ -197,9 +209,9 @@
 
                 <div class="replay-right">
                     <ul class="flex lst align-center">
-                        <li class="fg-white pr-2"><i class="fa-solid fa-list"></i></li>
-                        <li class="fg-white pr-2"><i class="fa-solid fa-display"></i></li>
-                        <li class="fg-white pr-2"><i class="fa-solid fa-volume-high"></i></li>
+                        <li class="fg-white pr-1"><i class="fa-solid fa-list"></i></li>
+                        <li class="fg-white pr-1"><i class="fa-solid fa-display"></i></li>
+                        <li class="fg-white pr-1"><i class="fa-solid fa-volume-high"></i></li>
                         <div class="progress-2"> <div class="progress-fillet-2"></div></div>
                     </ul>
                     
